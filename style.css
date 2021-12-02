@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;600&family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem 0;
+  list-style: none;
+  outline: none;
+}
+
+:root {
+  --primary-color: #f4f8b9;
+  --secondary-color: #f3d73b;
+  --tertiary-color: #f3f3d9;
+  --heading-color: #5c5588;
+  --para-color: #1c1c1f;
+}
+
+body {
+  background-color: #f4f8b9;
+}
+
+.minion {
+  width: 12rem;
+  height: 30vh;
+  display: block;
+  margin: 0 auto;
+ 
+}
+
+h1 {
+  font-style: italic;
+  color: #11100c;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+h3 {
+  
+  color: #0c0a14;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#input {
+  background-color: #f3f3d9;
+  color: #1c1c1f;
+  font-size: 1rem;
+  letter-spacing: 0.08rem;
+  display: block;
+  width: 40%;
+  height: 30vh;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+
+#btn {
+  color: #0a0a0e;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #f3d73b;
+  padding: 0.7rem 0.7rem;
+  border-radius: 1.8rem;
+  border-color: black;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#output {
+  background-color: #f3f3d9;
+  color: #1c1c1f;
+  font-size: 1rem;
+  border: solid 0.06rem;
+  width: 40%;
+  height: 30vh;
+  padding: 1rem;
+  margin: 1rem auto;
+  margin-top: 0;
+}
+
+#Text  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+  color: #1c1c1f;
+  font-size: 1rem;
+  letter-spacing: 0.08rem;
+  text-align: justify;
+}
